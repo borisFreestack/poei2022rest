@@ -1,14 +1,18 @@
 package com.freestack.spring.models;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name = "user_details")
 public class User {
-
-
-
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private String firstName;
 	private String lastName;
 	private String username;
 	private String email;
+
 
 	public Long getId() {
 		return id;
@@ -49,4 +53,5 @@ public class User {
 	public void setEmail(String email) {
 		this.email = email;
 	}
+
 }
