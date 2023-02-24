@@ -1,4 +1,4 @@
-package com.freestack.spring.models;
+package com.freestack.spring.feature1.models;
 
 import javax.persistence.*;
 import java.time.LocalDate;

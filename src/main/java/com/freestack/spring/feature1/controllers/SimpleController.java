@@ -1,12 +1,9 @@
-package com.freestack.spring.controllers;
+package com.freestack.spring.feature1.controllers;
 
-import com.freestack.spring.EntityManagerFactorySingleton;
-import com.freestack.spring.models.Video;
+import com.freestack.spring.feature1.models.Video;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import javax.persistence.EntityManager;
 
 @RestController
 @RequestMapping("/test")
